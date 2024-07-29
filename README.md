@@ -77,6 +77,11 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
+- Kemudian jalankan perintah :
+```shell
+php artisan storage:link
+```
+
 - Untuk  User :
 ```shell
 Super Admin
