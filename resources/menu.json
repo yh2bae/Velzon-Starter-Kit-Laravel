@@ -1,0 +1,43 @@
+{
+    "menu": [
+        {
+            "label": "Navigasi",
+            "type": "header"
+        },
+        {
+            "label": "Beranda",
+            "icon": "home",
+            "route": "home"
+        },
+        {
+            "label": "Master",
+            "type": "header",
+            "permissionAny": [
+                "user_view",
+                "role_view",
+                "permission_view"
+            ]
+        },
+        {
+            "label": "Roles",
+            "icon": "shield-lock-open-outline",
+            "route": "roles",
+            "urlActive": "/master/roles",
+            "permission": "role_view"
+        },
+        {
+            "label": "Permissions",
+            "icon": "shield-key-outline",
+            "route": "permissions",
+            "urlActive": "/master/permissions",
+            "permission": "permission_view"
+        },
+        {
+            "label": "Users",
+            "icon": "account-multiple-outline",
+            "route": "users",
+            "urlActive": "/master/users",
+            "permission": "user_view"
+        }
+    ]
+}

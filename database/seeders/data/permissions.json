@@ -1,0 +1,92 @@
+[
+    {
+        "name": "profile_view",
+        "roles": ["superadmin", "admin", "user"],
+        "module_name": "Profil"
+    },
+    {
+        "name": "profile_update",
+        "roles": ["superadmin", "admin", "user"],
+        "module_name": "Profil"
+    },
+    {
+        "name": "role_view",
+        "roles": ["superadmin"],
+        "module_name": "Role"
+    },
+    {
+        "name": "role_create",
+        "roles": ["superadmin"],
+        "module_name": "Role"
+    },
+    {
+        "name": "role_update",
+        "roles": ["superadmin"],
+        "module_name": "Role"
+    },
+    {
+        "name": "role_show",
+        "roles": ["superadmin"],
+        "module_name": "Role"
+    },
+    {
+        "name": "role_delete",
+        "roles": ["superadmin"],
+        "module_name": "Role"
+    },
+    {
+        "name": "permission_view",
+        "roles": ["superadmin"],
+        "module_name": "Permission"
+    },
+    {
+        "name": "permission_create",
+        "roles": ["superadmin"],
+        "module_name": "Permission"
+    },
+    {
+        "name": "permission_update",
+        "roles": ["superadmin"],
+        "module_name": "Permission"
+    },
+    {
+        "name": "permission_show",
+        "roles": ["superadmin"],
+        "module_name": "Permission"
+    },
+    {
+        "name": "permission_delete",
+        "roles": ["superadmin"],
+        "module_name": "Permission"
+    },
+    {
+        "name": "user_view",
+        "roles": ["superadmin"],
+        "module_name": "Users"
+    },
+    {
+        "name": "user_create",
+        "roles": ["superadmin"],
+        "module_name": "Users"
+    },
+    {
+        "name": "user_update",
+        "roles": ["superadmin"],
+        "module_name": "Users"
+    },
+    {
+        "name": "user_show",
+        "roles": ["superadmin"],
+        "module_name": "Users"
+    },
+    {
+        "name": "user_delete",
+        "roles": ["superadmin"],
+        "module_name": "Users"
+    },
+    {
+        "name": "user_login_as",
+        "roles": ["superadmin"],
+        "module_name": "Users"
+    }
+]

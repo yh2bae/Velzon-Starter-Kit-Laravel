@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Super Admin",
+        "email": "superadmin@app.com",
+        "password": "rahasia!",
+        "roles": [
+            "superadmin"
+        ]
+    },
+    {
+        "name": "Admin",
+        "email": "admin@app.com",
+        "password": "rahasia!",
+        "roles": [
+            "admin"
+        ]
+    },
+    {
+        "name": "User",
+        "email": "user@app.com",
+        "password": "rahasia!",
+        "roles": [
+            "user"
+        ]
+    }
+]
