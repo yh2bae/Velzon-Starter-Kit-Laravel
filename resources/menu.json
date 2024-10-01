@@ -22,7 +22,7 @@
             "label": "Roles",
             "icon": "shield-lock-open-outline",
             "route": "roles",
-            "urlActive": "/master/roles/*",
+            "urlActive": "/master/roles*",
             "permission": "role_view"
         },
         {
